@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish - Library & Information Science Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #059669 0%, #0d9488 50%, #0891b2 100%); }
+        .section-hover { transition: all 0.3s ease; }
+        .section-hover:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 25px 50px rgba(0,0,0,0.2); }
+        .timeline-dot { 
+            position: absolute; 
+            left: -6px; 
+            top: 6px; 
+            width: 12px; 
+            height: 12px; 
+            background: #3b82f6; 
+            border-radius: 50%; 
+            border: 2px solid white; 
+        }
+        .card-gradient { background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.9) 100%); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.3); }
+        
+        /* === Circle Photo Styling === */
+        .circle-photo {
+            width: 180px;       /* adjust size as needed */
+            height: 180px;      /* same as width for perfect circle */
+            object-fit: cover;  /* crop image neatly */
+            border-radius: 50%; /* makes the image circular */
+            border: 4px solid white; /* optional border */
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3); /* optional shadow */
+        }
+
+        @media print {
+            .no-print { display: none; }
+            body { font-size: 12px; }
+        }
+    </style>
+</head>
+<body class="bg-blue-50">
+    
+    
+    <header class="hero-gradient text-white py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+            
+            <center>
+                <img src="123.jpeg" alt="Profile Photo" class="circle-photo">
+            </center>
+
+                <h1 class="text-5xl md:text-6xl font-bold mb-4 tracking-tight">Harish Daniel A</h1>
+                <p class="text-2xl md:text-3xl mb-8 opacity-90 font-light">Library & Information Science Professional</p>
+                
+                
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-6 inline-block">
+                    <div class="flex flex-col md:flex-row items-center gap-8 text-lg">
+                        <span>Ph.No: 96553 30706</span>
+                        <span>E-Mail ID: harish3da@gmail.com</span>
+                        <a href="https://www.linkedin.com/in/harish-daniel-65299b28a" target="_blank" class="hover:text-blue-200 transition-colors">🔗 LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
+
+
+
+
+
+    <div class="container mx-auto px-8 py-20 max-w-6xl" style="background: linear-gradient(145deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%); border-radius: 3rem; margin-top: -6rem; position: relative; z-index: 10; box-shadow: 0 30px 60px rgba(0,0,0,0.15); backdrop-filter: blur(10px);"">
+        <!-- Professional Objective -->
+        <section class="section-hover card-gradient rounded-3xl p-10 mb-12 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Professional Objective</h2>
+            <p class="text-gray-700 text-xl leading-relaxed font-light">
+                I am always willing to acquire new skills and enhance my existing skills related to the profession of Library and Information science.
+            </p>
+        </section>
+
+        <!-- Experience Timeline -->
+        <section class="section-hover card-gradient rounded-3xl p-10 mb-12 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Professional Experience</h2>
+            
+            <div class="relative border-l-2 border-gray-300 ml-6 space-y-12">
+                <!-- Current Position -->
+                <div class="relative pl-8">
+                    <div class="timeline-dot"></div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-4">
+                            <h3 class="text-2xl font-semibold text-gray-800">Library Professional Trainee</h3>
+                            <span class="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium">Nov 2024 - Present</span>
+                        </div>
+                        <p class="text-blue-600 font-semibold mb-4 text-lg">The Institute of Mathematical Sciences (IMSc), Chennai</p>
+                        <ul class="text-gray-700 space-y-3 text-lg">
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-500 mt-2 text-xl">•</span>
+                                <span>Assisted in library operations including classification using (UDC), cataloging, and shelving of books.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-500 mt-2 text-xl">•</span>
+                                <span>Gained hands-on experience in library automation using Koha and managed digital repositories with DSpace.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-500 mt-2 text-xl">•</span>
+                                <span>Archiving photos using the open-source Piwigo platform—organizing and managing large digital image collections through albums and metadata.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Previous Position -->
+                <div class="relative pl-8">
+                    <div class="timeline-dot"></div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-4">
+                            <h3 class="text-2xl font-semibold text-gray-800">School Librarian</h3>
+                            <span class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium">May 2024 - Nov 2024</span>
+                        </div>
+                        <p class="text-purple-600 font-semibold mb-4 text-lg">Velammal Knowledge Park, Ponneri</p>
+                        <ul class="text-gray-700 space-y-3 text-lg">
+                            <li class="flex items-start gap-3">
+                                <span class="text-purple-500 mt-2 text-xl">•</span>
+                                <span>Managed day-to-day library activities, including book acquisition, classification, cataloging, and shelving.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-purple-500 mt-2 text-xl">•</span>
+                                <span>Designed and conducted library orientation sessions for new students and faculty.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-purple-500 mt-2 text-xl">•</span>
+                                <span>Organized reading programs, book fairs, storytelling sessions, and to promote a reading culture.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships -->
+        <section class="section-hover card-gradient rounded-3xl p-10 mb-12 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Internship Experience</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-orange-50 p-6 rounded-xl border-l-4 border-orange-400">
+                    <h3 class="font-semibold text-gray-800 mb-1">Indian Institute of Management, Bangalore</h3>
+                    <p class="text-orange-600 text-sm font-medium">15 Nov 2023 – 15 Dec 2023</p>
+                </div>
+                <div class="bg-orange-50 p-6 rounded-xl border-l-4 border-orange-400">
+                    <h3 class="font-semibold text-gray-800 mb-1">Bishop Heber College, Tiruchirapalli</h3>
+                    <p class="text-orange-600 text-sm font-medium">Oct & Nov 2023</p>
+                </div>
+                <div class="bg-orange-50 p-6 rounded-xl border-l-4 border-orange-400">
+                    <h3 class="font-semibold text-gray-800 mb-1">Government Law College, Tiruchirapalli</h3>
+                    <p class="text-orange-600 text-sm font-medium">17 May 2023 – 15 Jun 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Experience -->
+        <section class="section-hover card-gradient rounded-3xl p-10 mb-12 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Additional Experience</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Part-Time Work Experience -->
+                <div class="bg-cyan-50 p-8 rounded-2xl border-l-4 border-cyan-500">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Work Experience (Part-Time)</h3>
+                    <p class="text-cyan-600 font-semibold mb-2 text-lg">Bishop Heber College, Tiruchirapalli</p>
+                    <span class="bg-cyan-500 text-white px-4 py-2 rounded-full text-sm font-medium">01 Aug 2019 - 28 Jan 2020</span>
+                </div>
+
+                <!-- Field Work Experience -->
+                <div class="bg-amber-50 p-8 rounded-2xl border-l-4 border-amber-500">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Field Work Experience</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-amber-600 font-semibold text-lg">National College, Tiruchirappalli</p>
+                            <span class="bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-medium">12 Dec 2022 - 17 Dec 2022</span>
+                        </div>
+                        <div>
+                            <p class="text-amber-600 font-semibold text-lg">Bishop Heber College, Tiruchirappalli</p>
+                            <span class="bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-medium">26 Jun 2023 - 10 Jul 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="section-hover card-gradient rounded-3xl p-10 mb-12 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Technical Skills</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-indigo-50 p-6 rounded-xl border-l-4 border-indigo-500">
+                    <h3 class="font-semibold text-indigo-800 mb-2">Library Technical Processing</h3>
+                    <p class="text-gray-700 text-sm">Classification, Cataloging, RFID Tagging</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-xl border-l-4 border-purple-500">
+                    <h3 class="font-semibold text-purple-800 mb-2">Digital Library Management</h3>
+                    <p class="text-gray-700 text-sm">DSpace</p>
+                </div>
+                <div class="bg-green-50 p-6 rounded-xl border-l-4 border-green-500">
+                    <h3 class="font-semibold text-green-800 mb-2">Library Automation</h3>
+                    <p class="text-gray-700 text-sm">Koha, Virtua</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-500">
+                    <h3 class="font-semibold text-blue-800 mb-2">Data Analysis & Tools</h3>
+                    <p class="text-gray-700 text-sm">SPSS, Zotero, MS Office, Linux</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Highlight -->
+        <section class="section-hover card-gradient rounded-3xl p-10 mb-12 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Projects</h2>
+            <div class="bg-emerald-50 p-8 rounded-2xl border-l-4 border-emerald-500">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                    "Information sources and services at Ooraga Noolagam (Branch Library), Woraiyur, Tiruchirappalli: A Study"
+                </h3>
+                <p class="text-gray-700 leading-relaxed text-lg">
+                    Conducted a comprehensive study on the role of public libraries in enhancing newspaper reading habits and the services they provide. 
+                    The results showed that <strong class="text-emerald-700">92.3%</strong> of respondents were satisfied with the library services, while <strong class="text-emerald-700">84.6%</strong> 
+                    of the respondents were from urban areas. The findings were analyzed using the SPSS tool.
+                </p>
+            </div>
+        </section>
+
+        <!-- Academic Qualifications -->
+        <section class="section-hover card-gradient rounded-3xl p-10 mb-12 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Academic Qualifications</h2>
+            <div class="space-y-6">
+                <div class="bg-pink-50 p-8 rounded-2xl border-l-4 border-pink-400">
+                    <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800">Master of Science in Library and Information Science (M.Lib.I.Sc.)</h3>
+                            <p class="text-pink-600 font-medium">Bishop Heber College, Affiliated to Bharathidasan University, Tiruchirappalli.</p>
+                        </div>
+                        <div class="text-right">
+                            <span class="bg-pink-500 text-white px-4 py-2 rounded-full text-sm font-medium">7.27 CGPA</span>
+                            <p class="text-gray-600 text-sm mt-1">2022 - 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-blue-50 p-8 rounded-2xl border-l-4 border-blue-400">
+                    <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800">Bachelor of Science in Chemistry (B.Sc.)</h3>
+                            <p class="text-blue-600 font-medium">Bishop Heber College, Affiliated to Bharathidasan University, Tiruchirappalli.</p>
+                        </div>
+                        <div class="text-right">
+                            <span class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium">6.83 CGPA</span>
+                            <p class="text-gray-600 text-sm mt-1">2019 - 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-purple-50 p-6 rounded-2xl border-l-4 border-purple-400">
+                        <h3 class="font-semibold text-gray-800 mb-2">12th Grade</h3>
+                        <p class="text-purple-600 text-sm">Govt Boys Hr. Sec. School, Valparai.</p>
+                        <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-xs font-medium">52%</span>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-2xl border-l-4 border-green-400">
+                        <h3 class="font-semibold text-gray-800 mb-2">10th Grade</h3>
+                        <p class="text-green-600 text-sm">Sacred Heart Matric. Hr. Sec. School, Valparai.</p>
+                        <span class="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium">88%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Profile -->
+        <section class="section-hover card-gradient rounded-3xl p-10 border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Personal Profile</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div class="bg-teal-50 p-6 rounded-xl">
+                        <p class="font-semibold text-gray-800 mb-2">Date of Birth & Age</p>
+                        <p class="text-gray-700 text-lg">2nd April 2001 (24 years)</p>
+                    </div>
+                    <div class="bg-teal-50 p-6 rounded-xl">
+                        <p class="font-semibold text-gray-800 mb-2">Gender</p>
+                        <p class="text-gray-700 text-lg">Male</p>
+                    </div>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-xl">
+                    <p class="font-semibold text-gray-800 mb-4">Permanent Address</p>
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        21/138-2, waterfalls 3rd division,<br>
+                        waterfalls (post), Valparai,<br>
+                        Coimbatore, Tamil Nadu - 642105.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
+
+
+
+<!--  Profile poto add code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish - Library & Information Science Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #059669 0%, #0d9488 50%, #0891b2 100%); }
+        .section-hover { transition: all 0.3s ease; }
+        .section-hover:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 25px 50px rgba(0,0,0,0.2); }
+        .timeline-dot { 
+            position: absolute; 
+            left: -6px; 
+            top: 6px; 
+            width: 12px; 
+            height: 12px; 
+            background: #3b82f6; 
+            border-radius: 50%; 
+            border: 2px solid white; 
+        }
+        .card-gradient { background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.9) 100%); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.3); }
+        
+        /* === Circle Photo Styling === */
+        .circle-photo {
+            width: 180px;       /* adjust size as needed */
+            height: 180px;      /* same as width for perfect circle */
+            object-fit: cover;  /* crop image neatly */
+            border-radius: 50%; /* makes the image circular */
+            border: 4px solid white; /* optional border */
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3); /* optional shadow */
+        }
+
+        @media print {
+            .no-print { display: none; }
+            body { font-size: 12px; }
+        }
+    </style>
+</head>
+<body class="bg-blue-50">
+    
+    
+    <header class="hero-gradient text-white py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+            
+            <center>
+                <img src="123.jpeg" alt="Profile Photo" class="circle-photo">
+            </center>
+
+                <h1 class="text-5xl md:text-6xl font-bold mb-4 tracking-tight">Harish Daniel A</h1>
+                <p class="text-2xl md:text-3xl mb-8 opacity-90 font-light">Library & Information Science Professional</p>
+                
+                
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-6 inline-block">
+                    <div class="flex flex-col md:flex-row items-center gap-8 text-lg">
+                        <span>Ph.No: 96553 30706</span>
+                        <span>E-Mail ID: harish3da@gmail.com</span>
+                        <a href="https://www.linkedin.com/in/harish-daniel-65299b28a" target="_blank" class="hover:text-blue-200 transition-colors">🔗 LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html> -->
+
+
+
